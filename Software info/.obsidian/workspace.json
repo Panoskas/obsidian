@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "73a2b6a2fdcd291b",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d2b42027fc070b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8288c7abcb4870ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBs/General.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1991497cd0e8967d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d29fad2feefc40a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "832f37cb549a32cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "13fa6725280bf9f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f94828a34fe8189",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b9412025dfd3694",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c5586bb15bf0937e",
+    "type": "split",
+    "children": [
+      {
+        "id": "518d0cb3e1a6bd9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08af040ca7cb5361",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DBs/General.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "37db916deab66c77",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DBs/General.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "adc0d26043f02ef9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c70951553f691fa7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DBs/General.md"
+              }
+            }
+          },
+          {
+            "id": "8aa57005d8b41362",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "832f37cb549a32cf",
+  "lastOpenFiles": [
+    "obsidian",
+    "General/Web software principles.md",
+    "General/Vagrant and Ansible.md",
+    "General/Security Certificates.md",
+    "General/UI UX.md",
+    "General/RPC.md",
+    "General/Main roles in agile teams.md",
+    "General/Logging.md",
+    "General/Project Planning.md",
+    "General/Architecture Principles.md",
+    "General/Docker.md",
+    "General/Correct code snipet.md",
+    "General/Backend.md",
+    "General/Azure.md",
+    "DBs/General.md",
+    "General/Websockets.md",
+    "Frameworks/React Tutorial.md",
+    "Frameworks/Dotnet.md",
+    "Frameworks/Django.md",
+    "DBs/MongoDB.md",
+    "DBs/DTO and Database Models.md",
+    "languages/C Sharp Tutorial.md",
+    "Testing/Test_apis.md",
+    "Pasted image 20230614132343.png.md",
+    "dama.md",
+    "languages/Javascript.md",
+    "Screenshots/Pasted image 20230930191724.png",
+    "DBs.zip~RF376517.TMP",
+    "DBs.zip",
+    "General",
+    "Frameworks",
+    "DBs",
+    "languages",
+    "Screenshots/Pasted image 20230316125208.png",
+    "Screenshots/Pasted image 20230316124136.png",
+    "Screenshots/Pasted image 20230316123947.png",
+    "Screenshots",
+    "Screenshots/Pasted image 20230316125601.png",
+    "Screenshots/Pasted image 20230316124904.png",
+    "Screenshots/Pasted image 20230316124509.png",
+    "Screenshots/Pasted image 20230316124507.png",
+    "Screenshots/Pasted image 20230316124504.png",
+    "Screenshots/Screenshot from 2023-01-09 10-49-35.png"
+  ]
+}

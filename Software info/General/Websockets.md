@@ -1,0 +1,3 @@
+[WebSocket](https://ably.com/topic/websockets) is a realtime protocol that enables full-duplex, bidirectional communication between a web client and a web server over a persistent, single-socket connection.
+
+Similar to HTTP, WebSocket works on top of TCP. Unlike HTTP, WebSockets are stateful. They're suitable for [event-driven](https://ably.com/blog/the-shift-to-event-driven) apps and services that require high-frequency, low-latency communication between client and server. Use cases include live chat, realtime dashboards, streaming live score updates, multi-user document collaboration, multiplayer gaming, and many more.
