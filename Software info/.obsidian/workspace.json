@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture patterns for data communication.md",
+                "file": "General/A Deep Dive into Common Design Patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture patterns for data communication.md",
+                "file": "General/A Deep Dive into Common Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture patterns for data communication.md",
+                "file": "General/A Deep Dive into Common Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture patterns for data communication.md"
+                "file": "General/A Deep Dive into Common Design Patterns.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   "active": "2e06f152e1641323",
   "lastOpenFiles": [
     "Distributed system/Most-Used Distributed System Design Patterns.md",
+    "Distributed system/Data Consistency for Microservcices.md",
     "Architecture patterns for data communication.md",
     "General/Correct code snipet.md",
     "General/Docker.md",
@@ -176,7 +177,6 @@
     "General/Azure.md",
     "General/A Deep Dive into Common Design Patterns.md",
     "General/Architecture Principles.md",
-    "Distributed system/Data Consistency for Microservcices.md",
     "Distributed system/Outbox Pattern.md",
     "Distributed system/Eventual Consistency.md",
     "Distributed system/Two-Phase Commit (2PC).md",
