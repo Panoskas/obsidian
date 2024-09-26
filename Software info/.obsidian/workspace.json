@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "94d2b42027fc070b",
+        "id": "71deb479a416315e",
         "type": "tabs",
         "children": [
           {
-            "id": "8288c7abcb4870ea",
+            "id": "2e06f152e1641323",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBs/General.md",
+                "file": "Architecture patterns for data communication.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "subscribe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBs/General.md",
+                "file": "Architecture patterns for data communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBs/General.md",
+                "file": "Architecture patterns for data communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBs/General.md"
+                "file": "Architecture patterns for data communication.md"
               }
             }
           },
@@ -166,34 +166,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "832f37cb549a32cf",
+  "active": "2e06f152e1641323",
   "lastOpenFiles": [
-    "obsidian",
+    "Distributed system/Most-Used Distributed System Design Patterns.md",
+    "Architecture patterns for data communication.md",
+    "General/Correct code snipet.md",
+    "General/Docker.md",
+    "General/Backend.md",
+    "General/Azure.md",
+    "General/A Deep Dive into Common Design Patterns.md",
+    "General/Architecture Principles.md",
+    "Distributed system/Data Consistency for Microservcices.md",
+    "Distributed system/Outbox Pattern.md",
+    "Distributed system/Eventual Consistency.md",
+    "Distributed system/Two-Phase Commit (2PC).md",
+    "Distributed system/CQRS.md",
+    "Distributed system/Event Sourcing.md",
+    "Distributed system/Saga Pattern.md",
     "General/Web software principles.md",
     "General/Vagrant and Ansible.md",
     "General/Security Certificates.md",
-    "General/UI UX.md",
     "General/RPC.md",
+    "General/Project Planning.md",
     "General/Main roles in agile teams.md",
     "General/Logging.md",
-    "General/Project Planning.md",
-    "General/Architecture Principles.md",
-    "General/Docker.md",
-    "General/Correct code snipet.md",
-    "General/Backend.md",
-    "General/Azure.md",
-    "DBs/General.md",
+    "Distributed system",
+    "deep.md",
     "General/Websockets.md",
-    "Frameworks/React Tutorial.md",
-    "Frameworks/Dotnet.md",
-    "Frameworks/Django.md",
-    "DBs/MongoDB.md",
-    "DBs/DTO and Database Models.md",
     "languages/C Sharp Tutorial.md",
-    "Testing/Test_apis.md",
-    "Pasted image 20230614132343.png.md",
-    "dama.md",
-    "languages/Javascript.md",
+    "obsidian",
+    "General/UI UX.md",
     "Screenshots/Pasted image 20230930191724.png",
     "DBs.zip~RF376517.TMP",
     "DBs.zip",

@@ -82,7 +82,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 11. **Visitor**: Represents an operation to be performed on the elements of an object structure, allowing you to define a new operation without changing the classes of the elements on which it operates.
 
 These patterns provide solutions to common problems in software design, promoting reusable and maintainable code.
-
+[[A Deep Dive into Common Design Patterns]]
 ## CAP Theorem
 The CAP theorem, also known as Brewer's theorem, is a fundamental principle in the field of distributed systems. It was proposed by computer scientist Eric Brewer in 2000 and formally proved by Seth Gilbert and Nancy Lynch in 2002. The theorem states that it is impossible for a distributed data store to simultaneously provide all three of the following guarantees:
 

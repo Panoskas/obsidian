@@ -61,28 +61,6 @@ Clean Architecture Rules
 - views
 
 
-
-## CQRS
-  
-CQRS, which stands for Command Query Responsibility Segregation, is a software architectural pattern that separates the responsibilities of handling command (write) operations and query (read) operations. The main idea behind CQRS is to use different models for reading and writing data, recognizing that the requirements for handling these operations can be quite different.
-
-In a traditional architecture, a single model is often used to handle both read and write operations. However, as an application grows in complexity, the requirements for reading and writing data may diverge. CQRS addresses this by suggesting the use of separate models for commands and queries.
-
-Key principles of CQRS:
-
-1. **Separation of Concerns:** CQRS advocates for separating the command and query responsibilities to simplify the design and maintenance of each model.
-
-2. **Command Model:** The command side is responsible for handling operations that modify the system's state. It deals with creating, updating, or deleting data. This is where business logic for enforcing invariants and handling mutations is implemented.
-  
-3. **Query Model:** The query side is responsible for handling read operations. It provides optimized models for querying data without the need to adhere to the constraints of the command model. This can lead to improved performance for read-heavy operations.
-   
-4. **Asynchronous Communication:** CQRS often involves asynchronous communication between the command and query sides. Commands are typically handled in a way that allows eventual consistency between the command and query models.
-   
-5. **Scalability:** Since command and query responsibilities are separated, each side can be scaled independently based on its specific requirements. This can be particularly beneficial in scenarios where read and write loads vary significantly.
-   
-
-It's important to note that while CQRS provides benefits in certain scenarios, it also introduces complexity. Implementing CQRS may not be necessary for all applications, and it should be considered based on the specific requirements and complexity of the system being developed.
-
 ## GRPC vs REST vs GRAPHQL
 In the ever-evolving world of API architectures, it can be challenging to determine which style is the best fit for your specific needs. Two popular contenders that have gained significant traction are GraphQL and gRPC, alongside the well-established REST API. Let’s take a closer look at the advantages and disadvantages of each.
 
