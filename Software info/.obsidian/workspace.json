@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "71deb479a416315e",
+        "id": "3600121a6959e6d3",
         "type": "tabs",
         "children": [
           {
-            "id": "2e06f152e1641323",
+            "id": "bf20bc0a111246e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/A Deep Dive into Common Design Patterns.md",
+                "file": "Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a64974719cf02aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Passwords.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95e5be3760959b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current Sprint.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subscribe",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/A Deep Dive into Common Design Patterns.md",
+                "file": "Current Sprint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General/A Deep Dive into Common Design Patterns.md",
+                "file": "Current Sprint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/A Deep Dive into Common Design Patterns.md"
+                "file": "Current Sprint.md"
               }
             }
           },
@@ -166,36 +191,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e06f152e1641323",
+  "active": "95e5be3760959b53",
   "lastOpenFiles": [
+    "Passwords.md",
+    "Current Sprint.md",
+    "Go.md",
+    "Useful info and commands/TMUX.md",
+    "Useful info and commands/NeoVim.md",
+    "Useful info and commands/Linux Commands.md",
+    "Useful info and commands/Linux useful commands.md",
+    "languages/Ruby.md",
+    "languages/Golang.md",
+    "General/Web software principles.md",
+    "General/Sneakers.md",
+    "General/RPC.md",
+    "General/RabbitMQ.md",
+    "General/Protobuffers & gRPC vs JSON.md",
+    "General/Postgres general info.md",
+    "DBs/General.md",
+    "General/Linux General knowledge.md",
+    "General/K8s.md",
+    "General/GraphQL.md",
+    "General/Git branching Strategies.md",
+    "General/Docker.md",
+    "General/Concurrency, Asynchronous Programming and Multithreading.md",
+    "General/A Deep Dive into Common Design Patterns.md",
+    "Frameworks/React.md",
     "Distributed system/Most-Used Distributed System Design Patterns.md",
     "Distributed system/Data Consistency for Microservcices.md",
-    "Architecture patterns for data communication.md",
-    "General/Correct code snipet.md",
-    "General/Docker.md",
-    "General/Backend.md",
-    "General/Azure.md",
-    "General/A Deep Dive into Common Design Patterns.md",
-    "General/Architecture Principles.md",
-    "Distributed system/Outbox Pattern.md",
-    "Distributed system/Eventual Consistency.md",
-    "Distributed system/Two-Phase Commit (2PC).md",
-    "Distributed system/CQRS.md",
-    "Distributed system/Event Sourcing.md",
-    "Distributed system/Saga Pattern.md",
-    "General/Web software principles.md",
-    "General/Vagrant and Ansible.md",
-    "General/Security Certificates.md",
-    "General/RPC.md",
-    "General/Project Planning.md",
-    "General/Main roles in agile teams.md",
-    "General/Logging.md",
     "Distributed system",
-    "deep.md",
-    "General/Websockets.md",
-    "languages/C Sharp Tutorial.md",
     "obsidian",
-    "General/UI UX.md",
     "Screenshots/Pasted image 20230930191724.png",
     "DBs.zip~RF376517.TMP",
     "DBs.zip",
