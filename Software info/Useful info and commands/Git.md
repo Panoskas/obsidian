@@ -123,3 +123,9 @@ You can see the remote-tracking branches on your local machine by running `git b
 You can also see the remote branches in the git GUI tools like SourceTree, GitKraken and others
 
 To start working with a remote branch, you need to create a local branch that is based on the remote-tracking branch. You can do this by running `git checkout -b <local-branch-name> origin/<remote-branch-name>`. This will create a new local branch and set it to the same state as the remote branch that you pulled.
+
+### Remove folder from remote gitlab
+
+`git rm -rf --cache .idea`
+`git commit -m "message"`
+`git push`
