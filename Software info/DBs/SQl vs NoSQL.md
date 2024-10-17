@@ -52,3 +52,33 @@ The choice between **NoSQL** and **SQL** databases depends on the specific use c
 ### Conclusion:
 - Use **SQL** when you need strong consistency, ACID transactions, and have a clear, structured data model.
 - Use **NoSQL** for scalability, flexibility in data models, and handling large amounts of unstructured or distributed data, especially in high-traffic and real-time applications.
+
+
+### 9 NoSQL Database UseCases
+
+1. MongoDB (Document Store)  
+    Used for content management systems and catalog management. Features BSON format, schema-less design, supports horizontal scaling with sharding, and high availability with replication  
+    
+2. Cassandra (Wide-column Store)  
+    Ideal for time-series data management and recommendation engines. Offers wide-column format, distributed architecture, and CQL for SQL-like querying.  
+    
+3. Redis (Key-Value Store)  
+    Suited for Cache, Session Management, and Gaming Leaderboards. Provides in-memory storage, support for complex data structures, and persistence options with RDB and AOF.  
+    
+4. Couchbase (Document Store with Key-Value)  
+    Used for content management systems and e-commerce platforms. Combines key-value and document-based operations with memory-first architecture and cross-data center replication.  
+    
+5. Neo4j (Graph DB)  
+    Excellent for social networking and fraud detection. Features ACID compliance, index-free adjacency, Cypher Query Language, and HA cluster capabilities.  
+    
+6. Amazon DynamoDB (Key-Value and Document)  
+    Perfect for serverless and IoT applications. Supports both key-value and complex document data, managed by AWS, with features like partition data across nodes and DynamoDB streams.  
+    
+7. Apache Hbase (Wide-Column Store)  
+    Used for data warehouse and large-scale data processing. Modeled after Google’s Bigtable, offers Hadoop integration, auto-sharding, strong consistency, and region servers.  
+    
+8. Elasticsearch (Search Engine)  
+    Ideal for full-text search and log and event data analysis. Built on Apache Lucene, document-oriented, with sharding and replication capabilities, and a RESTful interface.  
+    
+9. CouchDB (Document Store)  
+    Suitable for mobile applications and CMS. Document-oriented, ensures data consistency without locking, supports eventual consistency, and uses a RESTful API.

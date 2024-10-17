@@ -4,47 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "3600121a6959e6d3",
+        "id": "71deb479a416315e",
         "type": "tabs",
         "children": [
           {
-            "id": "bf20bc0a111246e4",
+            "id": "2e06f152e1641323",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go.md",
+                "file": "Distributed system/Most-Used Distributed System Design Patterns.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Most-Used Distributed System Design Patterns"
             }
           },
           {
-            "id": "a64974719cf02aef",
+            "id": "695d466adb708db1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Passwords.md",
+                "file": "DBs/SQl vs NoSQL.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SQl vs NoSQL"
             }
           },
           {
-            "id": "95e5be3760959b53",
+            "id": "9caccc4d55e3c3b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current Sprint.md",
+                "file": "DBs/SQl vs NoSQL.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SQl vs NoSQL"
+            }
+          },
+          {
+            "id": "d57c826c84ba0de5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General/Deployment Strategies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deployment Strategies"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -64,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,13 +95,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "domain drive",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -95,14 +121,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 219.5
   },
   "right": {
     "id": "c5586bb15bf0937e",
@@ -118,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Current Sprint.md",
+                "file": "General/Deployment Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +154,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Deployment Strategies"
             }
           },
           {
@@ -135,10 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Current Sprint.md",
+                "file": "General/Deployment Strategies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Deployment Strategies"
             }
           },
           {
@@ -149,7 +181,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -158,8 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Current Sprint.md"
-              }
+                "file": "General/Deployment Strategies.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Deployment Strategies"
             }
           },
           {
@@ -171,7 +207,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -191,34 +229,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95e5be3760959b53",
+  "active": "832f37cb549a32cf",
   "lastOpenFiles": [
-    "Passwords.md",
-    "Current Sprint.md",
-    "Go.md",
-    "Useful info and commands/TMUX.md",
-    "Useful info and commands/NeoVim.md",
-    "Useful info and commands/Linux Commands.md",
-    "Useful info and commands/Linux useful commands.md",
-    "languages/Ruby.md",
-    "languages/Golang.md",
+    "General/Domain Driven Design.md",
+    "General/Deployment Strategies.md",
+    "DBs/SQl vs NoSQL.md",
     "General/Web software principles.md",
+    "General/Vagrant and Ansible.md",
     "General/Sneakers.md",
+    "General/Security Certificates.md",
     "General/RPC.md",
     "General/RabbitMQ.md",
     "General/Protobuffers & gRPC vs JSON.md",
-    "General/Postgres general info.md",
-    "DBs/General.md",
+    "General/Project Planning.md",
+    "General/Main roles in agile teams.md",
+    "DBs/Postgres general info.md",
+    "General/Logging.md",
     "General/Linux General knowledge.md",
     "General/K8s.md",
     "General/GraphQL.md",
     "General/Git branching Strategies.md",
     "General/Docker.md",
-    "General/Concurrency, Asynchronous Programming and Multithreading.md",
+    "General/Correct code snipet.md",
+    "General/Backend.md",
+    "Distributed system/Concurrency, Asynchronous Programming and Multithreading.md",
+    "General/Architecture patterns for data communication.md",
     "General/A Deep Dive into Common Design Patterns.md",
-    "Frameworks/React.md",
-    "Distributed system/Most-Used Distributed System Design Patterns.md",
-    "Distributed system/Data Consistency for Microservcices.md",
+    "General/Architecture Principles.md",
+    "General/Azure.md",
+    "Complexity and Algos",
     "Distributed system",
     "obsidian",
     "Screenshots/Pasted image 20230930191724.png",
