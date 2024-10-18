@@ -83,46 +83,4 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 
 These patterns provide solutions to common problems in software design, promoting reusable and maintainable code.
 [[A Deep Dive into Common Design Patterns]]
-## CAP Theorem
-The CAP theorem, also known as Brewer's theorem, is a fundamental principle in the field of distributed systems. It was proposed by computer scientist Eric Brewer in 2000 and formally proved by Seth Gilbert and Nancy Lynch in 2002. The theorem states that it is impossible for a distributed data store to simultaneously provide all three of the following guarantees:
 
-1. **Consistency**: Every read receives the most recent write or an error.
-2. **Availability**: Every request receives a (non-error) response, without guaranteeing that it contains the most recent write.
-3. **Partition Tolerance**: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
-
-According to the CAP theorem, in the presence of a network partition (a situation where communication between some nodes is lost), a distributed system must choose between consistency and availability:
-
-- **CA (Consistency and Availability)**: Systems that provide both consistency and availability do not tolerate partitions. In practice, this means they can't handle network failures well.
-- **CP (Consistency and Partition Tolerance)**: Systems that provide consistency and partition tolerance may become unavailable to ensure that no inconsistent data is served.
-- **AP (Availability and Partition Tolerance)**: Systems that provide availability and partition tolerance may serve outdated or inconsistent data in the presence of network partitions.
-
-It's important to note that the CAP theorem applies to distributed systems that experience network partitions. In a perfectly reliable network (no partitions), it would be possible to achieve consistency and availability simultaneously. However, since real-world networks are not perfectly reliable, designers of distributed systems must make trade-offs based on the specific needs of their applications.
-
-### Real-World Examples
-
-- **CP Systems**: Zookeeper, HBase
-- **AP Systems**: Cassandra, Couchbase
-- **CA Systems**: Relational databases like MySQL (assuming no network partitions)
-
-### Practical Implications
-
-- **Choosing Consistency**: Suitable for applications where accuracy is critical, like banking systems, where an inconsistent state could lead to significant issues.
-- **Choosing Availability**: Suitable for applications where uptime is critical and can tolerate eventual consistency, like social media platforms, where it's acceptable if a user sees slightly outdated posts.
-
-The CAP theorem is a guiding principle that helps system designers understand the trade-offs they must make and prioritize the aspects that align with their system's requirements.
-
-
-## BASE Principle
-
-In contrast to the ACID model (Atomicity, Consistency, Isolation, Durability) prevalent in relational databases, the BASE principle is often applied in the context of NoSQL databases. BASE stands for:
-
-- Available: The system guarantees availability.
-- Soft state: The system may change over time, even without input.
-- Eventually consistent: The system may not always be consistent, but ultimately reaches consistency.
-
-The BASE model prioritizes flexibility and scalability, often at the expense of solid consistency.
-
-
-## KISS Principle
-
-"Keep It Simple, Stupid" (KISS) is a design principle that dates back to 1960 and was first noted by the U.S. Navy. The KISS principle advocates for simplicity in design, stating that systems generally work best when they are kept simple rather than made complicated. This principle is a reminder that simplicity should be a key goal in design, and unnecessary complexity should be avoided.
